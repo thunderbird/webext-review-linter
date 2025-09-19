@@ -1,8 +1,8 @@
 # WebExtension Linter For Reviewers
 
-This Node.js tool aggressively lints WebExtension ZIP files. It removes unused JavaScript parameters, strips comments from JS/CSS/HTML, formats code using Prettier, and produces a new ZIP prefixed with `linted_`.
+This Node.js tool aggressively lints and prettifies WebExtension XPI (ZIP) files. It produces a new ZIP file prefixed with `linted_`.
 
-Linting both the most recent reviewed submission and the new submission removes non-relevant changes from the diff and simplifies the review process. By normalizing formatting, removing unused parameters, stripping comments, and enforcing a consistent coding style, reviewers can focus on actual logic or API changes rather than stylistic differences.
+By normalizing formatting, removing unused parameters, stripping comments, and enforcing a consistent coding style, linting both the most recent reviewed submission and the new submission removes non-relevant changes from the diff, simplifying the review process. Reviewers can focus on actual logic or code changes rather than stylistic differences.
 
 ---
 
