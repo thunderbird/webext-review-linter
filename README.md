@@ -4,6 +4,8 @@ This Node.js tool aggressively lints and prettifies WebExtension XPI (ZIP) files
 
 By normalizing formatting, removing unused parameters, stripping comments, and enforcing a consistent coding style, linting both the most recent reviewed submission and the new submission removes non-relevant changes from the diff, simplifying the review process. Reviewers can focus on actual logic or code changes rather than stylistic differences.
 
+The tool will also report severe code issues, which can be forwarded to the add-on developers.
+
 ---
 
 ## Requirements
