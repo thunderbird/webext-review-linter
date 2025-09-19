@@ -32,13 +32,13 @@ All required modules (ESLint, Prettier, Babel, PostCSS, JSON5, Adm-Zip, etc.) wi
 Lint a WebExtension ZIP file:
 
 ```bash
-npm run linter <path-to-webextension-zip>
+npm run linter <path-to-webextension-file>
 ```
 
 Example:
 
 ```bash
-npm run linter ../my-extension.zip
+npm run linter ../my-extension.xpi
 ```
 
 The tool will:
