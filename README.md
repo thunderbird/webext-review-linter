@@ -49,7 +49,7 @@ The tool will:
    - `.css` files (remove all comments, format with Prettier)
    - `.html` files (format with Prettier)
    - `.json` files (format with JSON5, removes comments)
-3. Repack everything into `linted_<originalname>.zip` (overwrites if exists).
+3. Repack everything into `linted_<originalname>` (overwrites if exists).
 
 ---
 
