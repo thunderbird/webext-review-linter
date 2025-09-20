@@ -22,7 +22,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 if (process.argv.length < 3) {
-  console.error('Usage: npm run linter <path-to-webextension-zip>');
+  console.error('Usage: npm run lint <path-to-webextension-zip>');
   process.exit(1);
 }
 

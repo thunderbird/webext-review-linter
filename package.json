@@ -5,7 +5,7 @@
   "main": "lint.js",
   "type": "module",
   "scripts": {
-    "linter": "node lint.js"
+    "lint": "node lint.js"
   },
   "dependencies": {
     "@babel/core": "^7.28.4",
